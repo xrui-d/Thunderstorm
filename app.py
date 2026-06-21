@@ -23,7 +23,15 @@ st.set_page_config(
 # API setup
 # ============================================================
 load_dotenv()
+
 api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    try:
+        api_key = st.secrets["OPENAI_API_KEY"]
+    except Exception:
+        api_key = None
+
 client = OpenAI(api_key=api_key) if api_key else None
 
 
