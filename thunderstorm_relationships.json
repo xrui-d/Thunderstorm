@@ -1,0 +1,143 @@
+{
+  "nodes": {
+    "周朴园": {
+      "group": "周家",
+      "description": "周公馆的家长，父权、资本和旧秩序的代表。"
+    },
+    "繁漪": {
+      "group": "周家",
+      "description": "周朴园的妻子，被压抑、强烈、反抗性极强。"
+    },
+    "周萍": {
+      "group": "周家",
+      "description": "周朴园的长子，夹在旧罪、逃避和情感纠葛之间。"
+    },
+    "周冲": {
+      "group": "周家",
+      "description": "周家的年轻一代，较天真、理想化。"
+    },
+    "鲁侍萍": {
+      "group": "鲁家",
+      "description": "被周朴园伤害过的女性，旧事和真相的关键人物。"
+    },
+    "四凤": {
+      "group": "鲁家",
+      "description": "鲁家的女儿，周家的女仆，被卷入上一代旧罪。"
+    },
+    "鲁大海": {
+      "group": "鲁家",
+      "description": "鲁侍萍的儿子，工人身份，体现阶级冲突。"
+    },
+    "鲁贵": {
+      "group": "鲁家",
+      "description": "周公馆仆人，连接周家与鲁家的底层人物。"
+    }
+  },
+  "edges": [
+    {
+      "source": "周朴园",
+      "target": "繁漪",
+      "relation": "夫妻 / 控制",
+      "reveal_from": "第一幕",
+      "description": "两人是夫妻，但关系并不温情，而是充满控制、压抑和冷漠。"
+    },
+    {
+      "source": "周朴园",
+      "target": "周萍",
+      "relation": "父子 / 权威",
+      "reveal_from": "第一幕",
+      "description": "周朴园作为父亲和家长，对周萍形成父权压力。"
+    },
+    {
+      "source": "繁漪",
+      "target": "周萍",
+      "relation": "危险情感纠葛",
+      "reveal_from": "第一幕",
+      "description": "两人之间存在紧张而不正常的情感关系，是悲剧的重要引线。"
+    },
+    {
+      "source": "繁漪",
+      "target": "周冲",
+      "relation": "母子",
+      "reveal_from": "第一幕",
+      "description": "繁漪与周冲是母子关系，但她的压抑也影响着周冲。"
+    },
+    {
+      "source": "周萍",
+      "target": "周冲",
+      "relation": "兄弟",
+      "reveal_from": "第一幕",
+      "description": "两人是兄弟，但在情感和命运上形成复杂对照。"
+    },
+    {
+      "source": "周公馆",
+      "target": "鲁贵",
+      "relation": "雇佣 / 仆人",
+      "reveal_from": "第一幕",
+      "description": "鲁贵作为仆人，连接周家生活与鲁家处境。"
+    },
+    {
+      "source": "周朴园",
+      "target": "鲁侍萍",
+      "relation": "旧情 / 伤害",
+      "reveal_from": "第二幕",
+      "description": "两人之间有被掩盖的过去，涉及情感伤害、阶级压迫和旧罪。"
+    },
+    {
+      "source": "鲁侍萍",
+      "target": "鲁大海",
+      "relation": "母子",
+      "reveal_from": "第二幕",
+      "description": "鲁侍萍与鲁大海是母子关系。"
+    },
+    {
+      "source": "周朴园",
+      "target": "鲁大海",
+      "relation": "资本家 / 工人",
+      "reveal_from": "第二幕",
+      "description": "两人的冲突表面是劳资冲突，深层也牵涉周鲁两家的秘密。"
+    },
+    {
+      "source": "周萍",
+      "target": "四凤",
+      "relation": "情感关系",
+      "reveal_from": "第三幕",
+      "description": "周萍与四凤之间的情感关系把年轻一代卷入悲剧。"
+    },
+    {
+      "source": "周冲",
+      "target": "四凤",
+      "relation": "爱慕 / 纯真",
+      "reveal_from": "第三幕",
+      "description": "周冲对四凤的感情较单纯，也使三角关系更加危险。"
+    },
+    {
+      "source": "鲁侍萍",
+      "target": "四凤",
+      "relation": "母女",
+      "reveal_from": "第三幕",
+      "description": "鲁侍萍与四凤是母女关系。"
+    },
+    {
+      "source": "鲁贵",
+      "target": "四凤",
+      "relation": "父女",
+      "reveal_from": "第三幕",
+      "description": "鲁贵与四凤是父女关系。"
+    },
+    {
+      "source": "周萍",
+      "target": "鲁侍萍",
+      "relation": "隐藏血缘 / 旧罪",
+      "reveal_from": "第四幕",
+      "description": "这一关系涉及最终秘密暴露，是悲剧爆发的核心。"
+    },
+    {
+      "source": "周萍",
+      "target": "四凤",
+      "relation": "悲剧性关系",
+      "reveal_from": "第四幕",
+      "description": "到最终真相暴露时，两人的关系被上一代旧罪彻底摧毁。"
+    }
+  ]
+}
